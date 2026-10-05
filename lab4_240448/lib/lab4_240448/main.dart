@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'task1_selection_controls.dart' show SelectionControlsScreen;
 import 'task2_input_fields.dart' show InputFieldsScreen;
-import 'task3_buttons.dart' show ButtonsScreen;
-import 'task4_indicators_feedback.dart' show IndicatorsFeedbackScreen;
-import 'task5_dialogs_modals.dart' show DialogsModalsScreen;
-import 'task6_sliders_pickers.dart' show SlidersPickersScreen;
+import 'task3_button.dart' show ButtonsScreen;
+import 'task4_indicator_feedback.dart' show IndicatorsFeedbackScreen;
+import 'task5_dialogs_modal.dart' show DialogsModalsScreen;
+import 'task6_slider_pickers.dart' show SlidersPickersScreen;
 import 'task7_scrollable_lists.dart' show ScrollableListScreen;
 import 'task8_grid_display.dart' show GridDisplayScreen;
 import 'task9_navigation.dart' show NavigationHubScreen;
-import 'task10_structural_containers.dart' show StructuralContainersScreen;
+
 
 void main() => runApp(const LabApp());
 
@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
     _Entry('Task 7', 'ListView.builder & Dismissible', (_) => const ScrollableListScreen()),
     _Entry('Task 8', 'GridView.count', (_) => const GridDisplayScreen()),
     _Entry('Task 9', 'BottomNavigationBar & TabBar', (_) => const NavigationHubScreen()),
-    _Entry('Task 10', 'Card & ExpansionTile', (_) => const StructuralContainersScreen()),
+   
   ];
 
   @override
