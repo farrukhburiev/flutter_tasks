@@ -1,0 +1,6 @@
+0 window
+1 me
+2 phone
+3 termiz
+4 lights
+5 nothing
