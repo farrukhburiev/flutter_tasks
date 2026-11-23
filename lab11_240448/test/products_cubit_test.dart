@@ -4,9 +4,9 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
-import 'package:lab4_240448/lab11_240448/cubit/details_cubit.dart';
-import 'package:lab4_240448/lab11_240448/cubit/products_cubit.dart';
-import 'package:lab4_240448/lab11_240448/data/product_api.dart';
+import 'package:lab11240448/lab11_240448/cubit/details_cubit.dart';
+import 'package:lab11240448/lab11_240448/cubit/products_cubit.dart';
+import 'package:lab11240448/lab11_240448/data/product_api.dart';
 
 import 'fixture_helper.dart';
 

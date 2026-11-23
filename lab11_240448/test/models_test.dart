@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab4_240448/lab11_240448/models/product.dart';
-import 'package:lab4_240448/lab11_240448/models/product_page.dart';
+import 'package:lab11240448/lab11_240448/models/product.dart';
+import 'package:lab11240448/lab11_240448/models/product_page.dart';
 
 import 'fixture_helper.dart';
 
